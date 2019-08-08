@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <h1>All Cats:</h1>
+    <% for (var cat of cats) { %>
+    <h3><%= cat.name %></h3>
+
+    <h3><%= cat.name1 %></h3>
+
+    <h3><%= cat.name2 %></h3>
+
+    <% } %>
+    <a href="/detail/luna"><img src="../images/luna.jpg"></a>
+    <a href="/detail/happy"><img src="../images/happy.jpg"></a>
+    <a href="/detail/beerus"><img src="../images/beerus.png"></a>
+</body>
+
+</html>
